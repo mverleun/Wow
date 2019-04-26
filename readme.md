@@ -35,12 +35,14 @@ When using a public broker you could also see the locations of others, anywhere 
 
 You could also setup your own and use that one. It's not difficult but you have to make sure that all students can reach your broker.
 
-Just us one of the following guides to get things going:
+Just use one of the following guides to get things going:
 
-- Configure Owntracks on iOS device
-- Configure Owntracks on Android device
-- Setup your own MQTT broker
-- Create your own map with locations using Node RED
+* [Howto Setup your own server](Setup MQTT Broker and Node RED.md)
+* Configure Owntracks on iOS device
+* Configure Owntracks on Android device
+* [Start the Demo](Start Demo.md)
+* [Problem solving](Problem Solving.md) 
+* [Next steps](Next Steps.md)
 
 
  
