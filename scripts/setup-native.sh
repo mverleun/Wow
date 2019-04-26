@@ -32,11 +32,17 @@ sudo apt update
 # Install a few packages
 sudo apt install -y mosquitto mosquitto-clients nodered npm
 
+pushd .
 # Install additional nodes for Node RED
 mkdir -p ~/.node-red
 cd ~/.node-red
 npm install node-red-contrib-web-worldmap
 npm install node-red-contrib-owntracks
+
+popd
+
+# Add a default flow
+cp flows/owntracks.json ~/.node-red/flows_$(hostname).json
 
 # Start the services
 sudo systemctl enable --now mosquitto
